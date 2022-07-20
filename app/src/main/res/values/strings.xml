@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KanbanBoard</string>
+    <string name="add_another_list">Add another list</string>
+    <string name="add_list">Add list</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="add_to_do">Save</string>
+    <string name="show_to_do_list">Show To Do List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="make_changes">make_changes</string>
+</resources>

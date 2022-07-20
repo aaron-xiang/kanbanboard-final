@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/activity_new_to_do.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/activity_to_do.xml" value="0.3515625" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.3515625" />
+        <entry key="app/src/main/res/layout/fragment_to_do.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_to_do_detail.xml" value="0.3515625" />
+        <entry key="app/src/main/res/layout/fragment_to_do_edit.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_to_do_list.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_to_do_new.xml" value="0.3515625" />
+        <entry key="app/src/main/res/layout/new_todo.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/row_layout.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/todolist_activity.xml" value="0.1953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

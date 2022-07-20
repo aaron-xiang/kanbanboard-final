@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="edu.sjsu.android.kanbanboard.todo.ToDoFragment"
+        android:label="fragment_to_do_list"
+        tools:layout="@layout/fragment_to_do_list" >
+        <action
+            android:id="@+id/action_toDoFragment_to_toDoDetailFragment"
+            app:destination="@id/toDoDetailFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_newToDoFragment"
+            app:destination="@id/newToDoFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toDoDetailFragment"
+        android:name="edu.sjsu.android.kanbanboard.todo.ToDoDetailFragment"
+        android:label="fragment_to_do_detail"
+        tools:layout="@layout/fragment_to_do_detail" >
+        <action
+            android:id="@+id/action_toDoDetailFragment_to_toDoEditFragment"
+            app:destination="@id/toDoEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toDoEditFragment"
+        android:name="edu.sjsu.android.kanbanboard.todo.ToDoEditFragment"
+        android:label="fragment_to_do_edit"
+        tools:layout="@layout/fragment_to_do_edit" >
+        <action
+            android:id="@+id/action_toDoEditFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="edu.sjsu.android.kanbanboard.credential.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment2"
+            app:destination="@id/registerFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment2"
+        android:name="edu.sjsu.android.kanbanboard.credential.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment2_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newToDoFragment"
+        android:name="edu.sjsu.android.kanbanboard.todo.NewToDoFragment"
+        android:label="NewToDoFragment" >
+        <action
+            android:id="@+id/action_newToDoFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </fragment>
+</navigation>
